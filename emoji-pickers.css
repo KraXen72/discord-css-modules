@@ -1,0 +1,61 @@
+/*----//---- EMOJI PICKERS----------*/
+/*credit to emma🌺#0968 for some of the code */
+
+/* remove nav*/
+.navList-2UtuhC {display: none;}
+.positionContainer-DEuh7X:not(.positionContainerEditingMessage-13cck-) .drawerSizingWrapper-17Mss4 .contentWrapper-SvZHNd #gif-picker-tab-panel, 
+.positionContainer-DEuh7X:not(.positionContainerEditingMessage-13cck-) .drawerSizingWrapper-17Mss4 .contentWrapper-SvZHNd #emoji-picker-tab-panel,
+.contentWrapper-SvZHNd .wrapper-2iFQJ9  {
+  margin-top: -35px !important;
+}
+.nav-7UD0KD {height: 0px !important;}
+
+/*rotate i think*/
+.categoryList-2Kzf65 {transform: rotate(-90deg) translateX(-111px) translateY(190px);}
+.listItems-1uJgMC .categoryItem-1D0nxC,
+.unicodeShortcut-15J8Ck {
+  transform: rotate(90deg);
+}
+
+.drawerSizingWrapper-17Mss4 {height: 442px;}
+.emojiPicker-3PwZFl {
+  grid-template-rows: 46px auto calc(56px + 48px);
+  grid-template-columns: 0 auto;
+  position: relative;
+}
+.drawerSizingWrapper-27qFHb {max-width: 424px;}
+.resizeHandle-3NRr0z {
+  /*disable, resize and reenable this if ur emoji FAT*/
+  display: none;
+  cursor: default;
+}
+.emoji-AAbs8r {margin-left: -5px !important;} /*emoji preview center it*/
+.inspector-S2gM3e { margin-top: 10px;} /*fix inspector idk*/
+
+/*reaction emoji picker*/
+.wrapper-2Gsate.categoryList-2Kzf65{
+  transform: rotate(-90deg);
+  transform: rotate(-90deg) translateX(-143px) translateY(190px);
+  height: 430px;
+}
+.emojiPicker-3PwZFl {
+  grid-template-rows: 46px auto calc(56px + 48px) !important;
+  grid-template-columns: 0 auto !important;
+  position: relative !important;
+}
+.emojiPicker-3PwZFl {
+  height: 440px;
+  width: 428px;
+}
+.header-1nkwgG,
+.header-8ilj5e,
+.header-1TOWci {
+  --webkit-shadow: none;
+  box-shadow: none !important;
+  filter: none;
+    
+}
+div#popout_7505 {
+  top: 500px !important;
+  right: 265px !important;
+}
