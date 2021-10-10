@@ -1,0 +1,18 @@
+/*----//----MESSAGE INPUT BOX AND RELATED CHANGES----------*/
+.scrollableContainer-2NUZem { /*main input bar*/
+    border-radius: 25px;
+    border: 1px solid rgba(0,0,0,0.2);
+  }
+  .channelTextArea-rNsIhG {background: transparent;}
+  .attachButton-2WznTc,
+  .attachWrapper-2TRKBi { border-right: none;} /*remove divider from attachbutton*/
+  .buttons-3JBrkn {margin-right: 5px !important;} /*add back margin to emoji button*/
+  
+  /*make typing and slowmode a bit more subtle*/
+  .typing-2GQL18,
+  .typing-2GQL18 svg g circle,
+  .cooldownWrapper-3joyFc,
+  .cooldownWrapper-3joyFc * {
+    color: var(--col-mute) !important; 
+    fill:var(--col-mute) !important;
+  }
